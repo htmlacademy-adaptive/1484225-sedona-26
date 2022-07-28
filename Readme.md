@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Александр Субботин](https://up.htmlacademy.ru/adaptive/26/user/1484225).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
 
 ---
 
