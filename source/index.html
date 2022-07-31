@@ -1,12 +1,184 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo">
+        <img src="img\logo-Sedona.svg" alt="логотип Sedona">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toogle" type="button"></button>
+        <ul class="main-nav__list nav-list">
+          <li class="nav-list__item">
+            <a href="">главная</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="">фото и видео</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="">форма отзыва</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="">html academy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">
+        Седона - главная страница
+      </h1>
+      <section class="intro">
+          <h2 class="intro__title">
+            Седона — небольшой городок в Аризоне, заслуживающий большего!
+          </h2>
+          <p class="intro__text">
+            Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+          </p>
+      </section>
+      <section class="advantages">
+        <h2 class="visually-hidden">
+          Преимущества
+        </h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <section class="advantage advantage--blue">
+              <h2 class="advantage__title">
+                Настоящий городок
+              </h2>
+              <span class="advantage__number">
+                — №1 —
+              </span>
+              <p class="advantage__text">
+                Седона не аттракцион для туристов, там течет своя жизнь
+              </p>
+            </section>
+            <ul class="advantages__details benefits">
+              <li class="benefits__item benefit">
+                <img src="" alt="">
+                <h2 class="benefit__header">
+                  Жилье
+                </h2>
+                <p class="benefit__text">
+                  Рекомендуем пожить в настоящем мотеле, все как в кино!
+                </p>
+              </li>
+              <li class="benefits__item benefit">
+                <img src="" alt="">
+                <h2 class="benefit__header">
+                  Еда
+                </h2>
+                <p class="benefit__text">
+                  Всегда заказывайте фирменный бургер, Вы не разочаруетесь!
+                </p>
+              </li>
+              <li class="benefits__item benefit">
+                <img src="" alt="">
+                <h2 class="benefit__header">
+                  Сувениры
+                </h2>
+                <p class="benefit__text">
+                  Не только китайского, но и местного производства!
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li class="advantages__item">
+            <section class="advantage advantage--blue">
+              <h2 class="advantage__title">
+                Там есть мост дьявола
+              </h2>
+              <span class="advantage__number">
+                — №2 —
+              </span>
+              <p class="advantage__text">
+                 Да, по нему можно пройти! Если вы осмелитесь, конечно
+              </p>
+            </section>
+          </li>
+          <li class="advantages__item">
+            <section class="advantage advantage--blue">
+              <h2 class="advantage__title">
+                Небольшая площадь
+              </h2>
+              <span class="advantage__number">
+                — №3 —
+              </span>
+              <p class="advantage__text">
+                Все интересные места находятся очень близко
+              </p>
+            </section>
+          </li>
+          <li class="advantages__item">
+            <section class="advantage advantage--blue">
+              <h2 class="advantage__title">
+                Красивая дорога
+              </h2>
+              <span class="advantage__number">
+                — №4 —
+              </span>
+              <p class="advantage__text">
+                Ехать в Седону из Лас-Вегаса совсем не скучно!
+              </p>
+            </section>
+          </li>
+          <li class="advantages__item">
+            <section class="advantage advantage--blue">
+              <h2 class="advantage__title">
+                Мало туристов
+              </h2>
+              <span class="advantage__number">
+                — №5 —
+              </span>
+              <p class="advantage__text">
+                 Большинство едет в Гранд Каньон и толпится там
+              </p>
+            </section>
+          </li>
+        </ul>
+      </section>
+      <section class="booking">
+        <h2 class="booking__header">
+          Заинтересовались?
+        </h2>
+        <p class="booking__text">
+          Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне
+        </p>
+        <button class="booking__button" type="button" name="button">
+          Найти гостиницу
+        </button>
+        <div class="map">
+          <img src="" alt="">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>#visitsedona</h2>
+      <section class="social">
+        <h2 class="visually-hidden">
+          Наши контакты в социальных сетях
+        </h2>
+        <ul>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+        </ul>
+      </section>
+      <section class="made-by">
+        <p>Разработано</p>
+        <a href="https://htmlacademy.ru/intensive/adaptive">
+          <img src="" alt="">
+        </a>
+      </section>
+    </footer>
   </body>
 </html>
