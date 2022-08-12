@@ -5,29 +5,31 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body class="page__body">
-    <header class="main-header">
+    <header class="page__header main-header">
       <a class="main-header__logo">
         <img src="img\logo-Sedona.svg" alt="логотип Sedona">
       </a>
-      <nav class="main-nav">
-        <button class="main-nav__toogle" type="button"></button>
+      <nav class="main-header__nav main-nav">
+        <button class="main-nav__toogle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
         <ul class="main-nav__list nav-list">
-          <li class="nav-list__item">
+          <li class="nav-list__item nav-list__item--current">
             <a href="">главная</a>
           </li>
           <li class="nav-list__item">
-            <a href="">фото и видео</a>
+            <a href="./catalog.html">фото и видео</a>
           </li>
           <li class="nav-list__item">
-            <a href="">форма отзыва</a>
+            <a href="./form.html">форма отзыва</a>
           </li>
           <li class="nav-list__item">
-            <a href="">html academy</a>
+            <a href="#">html academy</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="page-main">
+    <main class="page__main">
       <h1 class="visually-hidden">
         Седона - главная страница
       </h1>
@@ -50,7 +52,7 @@
                 Настоящий городок
               </h2>
               <span class="advantage__number">
-                — №1 —
+                — №1 —C:\Users\Azerd\Documents\1484225-sedona-26\source\index.html
               </span>
               <p class="advantage__text">
                 Седона не аттракцион для туристов, там течет своя жизнь
@@ -155,28 +157,28 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="page__footer">
       <h2>#visitsedona</h2>
       <section class="social">
         <h2 class="visually-hidden">
           Наши контакты в социальных сетях
         </h2>
-        <ul>
-          <li>
-            <a href="#"></a>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
           </li>
-          <li>
-            <a href="#"></a>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
           </li>
-          <li>
-            <a href="#"></a>
+          <li class="social__item">
+            <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
           </li>
         </ul>
       </section>
       <section class="made-by">
-        <p>Разработано</p>
-        <a href="https://htmlacademy.ru/intensive/adaptive">
-          <img src="" alt="">
+        <p class="made-by__text">Разработано</p>
+        <a class="made-by__link" href="https://htmlacademy.ru/intensive/adaptive">
+          <img class="mady-by__logo" src="" alt="HTML-Academy">
         </a>
       </section>
     </footer>
